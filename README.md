@@ -1,8 +1,8 @@
-#Ampelsteuerung Hess
+#Aaampelsteuerung Hess
 
-Arbeitsteilung:
+Aaaarbeitsteilung:
 
-Jan - Programmierung der Klassen
-Daniel - Erstellen der Klassendiagramme
+Jaaan - Programmierung der Klassen
+Daaaaniel - Erstellen der Klassendiagramme
 Nico - Flashen des Boards
-Me - Chef
+Maaats - Chef
