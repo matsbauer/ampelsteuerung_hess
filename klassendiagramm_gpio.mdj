@@ -260,7 +260,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+setInput(): void",
+											"text": "+setInput(pin: int): void",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -289,7 +289,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+setOutput(): void",
+											"text": "+setOutput(pin: int): void",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -318,7 +318,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+setBit(): void",
+											"text": "+setBit(pin: int): void",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -347,7 +347,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+clearBit(): void",
+											"text": "+clearBit(pin: int): void",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -376,7 +376,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+toggleBit(): void",
+											"text": "+toggleBit(pin: int): void",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -2355,6 +2355,22 @@
 									"isOrdered": false,
 									"isUnique": false,
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFjRBfC7wPRRQU=",
+									"_parent": {
+										"$ref": "AAAAAAFjRBMjJwG34ng="
+									},
+									"name": "pin",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "int",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
 								}
 							],
 							"concurrency": "sequential",
@@ -2386,6 +2402,22 @@
 									"isOrdered": false,
 									"isUnique": false,
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFjRBfOxwP+1Iw=",
+									"_parent": {
+										"$ref": "AAAAAAFjRBNM5gIU3Xc="
+									},
+									"name": "pin",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "int",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
 								}
 							],
 							"concurrency": "sequential",
@@ -2417,6 +2449,22 @@
 									"isOrdered": false,
 									"isUnique": false,
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFjRBfi3gQrw5U=",
+									"_parent": {
+										"$ref": "AAAAAAFjRBNwsAJTpbk="
+									},
+									"name": "pin",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "int",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
 								}
 							],
 							"concurrency": "sequential",
@@ -2448,6 +2496,22 @@
 									"isOrdered": false,
 									"isUnique": false,
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFjRBfvRQRk8bE=",
+									"_parent": {
+										"$ref": "AAAAAAFjRBObyQKkbuU="
+									},
+									"name": "pin",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "int",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
 								}
 							],
 							"concurrency": "sequential",
@@ -2479,6 +2543,22 @@
 									"isOrdered": false,
 									"isUnique": false,
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFjRBgCDASdQks=",
+									"_parent": {
+										"$ref": "AAAAAAFjRBO7NwLj7QE="
+									},
+									"name": "pin",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "int",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
 								}
 							],
 							"concurrency": "sequential",
