@@ -109,7 +109,7 @@
 											"containerExtending": false,
 											"left": 448,
 											"top": 512,
-											"width": 73,
+											"width": 73.67724609375,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -633,7 +633,7 @@
 											"containerExtending": false,
 											"left": 0,
 											"top": 0,
-											"width": 73,
+											"width": 73.67724609375,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -1070,7 +1070,7 @@
 											"containerExtending": false,
 											"left": 0,
 											"top": 608,
-											"width": 73,
+											"width": 73.67724609375,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -1166,7 +1166,11 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
+<<<<<<< HEAD
 											"text": "-button",
+=======
+											"text": "-button_1",
+>>>>>>> 277337253f2792dc9b46135d4ebdb68f77181140
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -2813,10 +2817,18 @@
 							"_parent": {
 								"$ref": "AAAAAAFjQ/ispvw0nkA="
 							},
+<<<<<<< HEAD
 							"name": "button",
 							"visibility": "private",
 							"isStatic": false,
 							"isLeaf": false,
+=======
+							"name": "button_1",
+							"visibility": "private",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": "",
+>>>>>>> 277337253f2792dc9b46135d4ebdb68f77181140
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
