@@ -5,27 +5,27 @@
 
 class Button
 {
-  protected:                              
-    bool  ;
+  protected:   
+    Button();
+   
+    //int button_state;
+    char button_port;
+    int pin;
+    
   public:
-    Cunter();
-    Counter(int  n = 0);
-    
-    void setVal(int v);
-    
-    int getVal(){return count;};
-    void inc()
-    {
-      count++;
-      if(count == n)
-      {
-        count = 0;
-      }   
-    };
-
+    bool readButton();
 };
 
-void Counter::setVal(int v)
+Button::Button(char port, int pin)
 {
-  count = v;
-}
+  button_port = port;
+  buttpn_pin  = pin;
+  
+  GPIO gpio(port);
+  gpio.setInput(pin);
+  
+};
+
+bool Button::readbutton(){
+  return gpio.readBit(pin) 
+};
